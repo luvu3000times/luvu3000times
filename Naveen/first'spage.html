@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="C:\Naveen\title.png">
+
+    <style>
+        .container {
+            display: flex;
+            height: 98%;
+            width: 98%;
+            position: absolute;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .container1, .container2 {
+            background-color: #f4f4f4;
+            width: 49%;
+            height: 100%;
+            position: relative;
+            border-radius: 3%;
+            box-shadow: 0px 0px 12px rgb(172, 170, 170);
+        }
+
+        .container3 {
+            padding: 3px;
+            color: #AC58F5;
+        }
+
+        .container4 {
+            align-items: center;
+            text-align: center;
+            display: block;
+            color: #AC58F5;
+        }
+
+        .container5 {
+            display: flex;
+            align-items: center;
+            margin-left: 10%;
+        }
+
+        .container7 {
+            display: flex;
+            margin-left: 25%;
+        }
+
+        .container9 {
+            display: flex;
+            align-items: center;
+            margin-left: 10%;
+        }
+
+        .container6, .container8, .container10 {
+            height: 175px;
+            width: 175px;
+        }
+
+        img {
+            height: 300px;
+            width: 300px;
+            border-radius: 5%;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .ref1, .ref2, .ref3 {
+            font-weight: bold;
+        }
+
+        .ref2 {
+            margin-top: 10%;
+            margin-right: 5%;
+        }
+
+        .href {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <h3 class="container3">PORTFOLIO</h3><br><br>
+            <div class="container4">
+                <img id="normalImage" class="sampleimg" src="C:\Naveen\profile.png" alt="no IMAGE--"><br><br>
+                <div class="ref">
+                    <h3 class="href" id="name">NAME: YOUR NAME</h3>
+                    <h3 class="href" id="role">ROLL: YOUR ROLE</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <h3 class="container4">TEAM MEMBERS</h3>
+            <div class="container5">
+                <a href="Naveen\naveen.html" onmouseover="startRedirect('Naveen\\naveen.html', 'Naveen\\naveenfirst.png', 'NAVEEN KUMAR', 'WEB DEVELOPER')" onmouseout="resetProfile()">
+                    <img class="container6" src="Naveen\naveenfirst.png" alt="NO IMAGE">
+                </a>
+                <div class="ref1">
+                    <ul>
+                        <li><a href="Naveen\naveen.html">NAME: NAVEEN KUMAR</a></li><br>
+                        <li><a href="Naveen\naveen.html">ROLL: WEB DEVELOPER</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container7">
+                <div class="ref2">
+                    <ul>
+                        <li><a href="Naveen\nithi.html">NAME: NITHYANANTHAM</a></li><br>
+                        <li><a href="Naveen\nithi.html">ROLL: FRONT END DEVELOPER</a></li>
+                    </ul>
+                </div>
+                <a href="Naveen\nithi.html" onmouseover="startRedirect('Naveen\\nithi.html', 'Naveen\\nithifirst.png', 'NITHYANANTHAM', 'FRONT END DEVELOPER')" onmouseout="resetProfile()">
+                    <img class="container8" src="Naveen\nithifirst.png" alt="NO IMAGE">
+                </a>
+            </div>
+
+            <div class="container9">
+                <a href="Naveen\pushpa.html" onmouseover="startRedirect('Naveen\\pushpa.html', 'Naveen\\pushpafirst.png', 'PUSHPARAJ', 'UI/UX DESIGNER')" onmouseout="resetProfile()">
+                    <img class="container10" src="Naveen\pushpafirst.png" alt="NO IMAGE">
+                </a>
+                <div class="ref3">
+                    <ul>
+                        <li><a href="Naveen\pushpa.html">NAME: PUSHPARAJ</a></li><br>
+                        <li> <a href="Naveen\pushpa.html">ROLL: UI/UX DESIGNER</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let redirectTimeout;
+
+        function updateProfile(imageSrc, name, role) {
+            document.getElementById('normalImage').src = imageSrc;
+            document.getElementById('name').textContent = `NAME: ${name}`;
+            document.getElementById('role').textContent = `ROLE: ${role}`;
+        }
+
+        function resetProfile() {
+            clearTimeout(redirectTimeout);
+            document.getElementById('normalImage').src = 'Naveen\\profile.png';
+            document.getElementById('name').textContent = 'NAME: YOUR NAME';
+            document.getElementById('role').textContent = 'ROLE: YOUR ROLE';
+        }
+
+        function startRedirect(link, imageSrc, name, role) {
+            updateProfile(imageSrc, name, role);
+            redirectTimeout = setTimeout(() => {
+                window.location.href = link;
+            }, 1000);
+        }
+    </script>
+</body>
+</html>

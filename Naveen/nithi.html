@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NIHIYANANTHAM'S PORTFOLIO</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="C:\Naveen\title.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+       
+        *{
+            font-family: "Open Sans", sans-serif;
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body{
+            background-color: #CBD5E1;
+            width: 100%;
+            height: 400%;
+            
+        }
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+            background-color: #4698AE;
+         
+        }
+        .name{
+            cursor: pointer;
+            font-weight: 500;
+
+        }
+        .navlink1{
+            list-style: none;
+            display:flex;
+
+        }
+
+        .navlink1 li a{
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+
+        }
+        .nav{
+            display: flex;
+        }
+
+        .navlink1 li a:hover{
+            color: aqua;
+            position: relative;
+        }
+
+        button{
+            padding: 8px;
+            border: none;
+            border-radius: 20px;
+            background-color: black;
+            color: white;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 0 500px solid whitesmoke;
+            
+        }
+
+        button:hover{
+            background-color: white;
+        }
+
+        button a:hover{
+            color: black;
+        }
+
+
+        .name1{
+            color: white;
+            text-align: center;
+        }
+        
+        .name2{
+            color: white;
+            text-align: center;
+        }
+        
+        .container{
+            display: flex;
+            flex-direction:row;
+            text-size-adjust: 100px
+        }
+
+        .container1{
+            display: flex; 
+            height: 5%;
+            width: 100%;
+        }
+
+        .container2{
+            display: flex;
+            height: 100%;
+            width: 40%;
+            padding-left: 0%;
+        }
+
+        .container3{
+            display: flex;
+            margin-top:15%;
+            margin-left:1%;
+            padding-right: 18%;
+            border:none;
+            color:#DB3F29 ;
+        }
+
+        .container4{
+            display: flex;
+           
+        }
+        
+        .container5{
+
+            color: #4698AE;
+            padding-left: 40px;
+        }
+
+        .container6{
+            display: flex;
+            height: 500px;
+            width: 500px;
+            margin-top: 15%;
+            font-weight: bold ;
+            color: #10113C; 
+
+        }
+
+        .container8{
+            display: flex;
+            height: 500px;
+            width: 500px;
+            margin-right: 10%;
+        }
+        
+
+        .container9{
+            display: flex;
+        }
+
+        .container10{
+            color: #4698AE;
+            padding-left: 40px;
+        }
+
+        .container11{
+            display: flex;
+            height: 500px;
+            width: 500px;
+            margin-right: 10%;
+        }
+
+      
+        .container13{
+            height: 500px;
+            width: 500px;
+            margin-top: 50%;
+            margin-left: 20%;
+            font-weight: bold ;
+            list-style: none;
+            padding: 0;
+
+        }
+
+        .container13 a:hover{
+            color: #642CA9;
+        }
+
+        .container14{
+            text-decoration: none;
+            color: #000;
+        }
+
+        .container15{
+            text-align: center;
+            align-items: center;
+            padding: 20px;
+            color: red;
+            font-weight: bold;
+        }
+
+        .container33{
+            color: #4698AE;
+            padding-left: 40px;
+        }
+
+        .container44{
+            margin-left: 10%;
+            padding-top: 3%;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .imgsec{
+          
+             height: 20px;
+             width: 20px;
+        }
+
+        span{
+            font-family: "Akaya Kanadaka", system-ui;
+            font-weight: 400;
+            color:#120D31;
+        }
+
+       
+        .imgmy{
+            height: 500px;
+            width: 500px;
+            margin-left: 75px ;
+            margin-top: 50px;
+        }
+
+        .imgabout{
+            height: 500px;
+            width: 500px;
+            margin-left: 75px ;
+            margin-top: 50px;
+           
+        }
+
+        .class22{
+            margin-top: 6%;
+            margin-left: 35%;
+            font-weight:bold;
+            font-size: 25px;
+        }
+
+        .svgimg{
+            margin-bottom: 0px;
+            height: 30px;
+            width: 30px;
+        }
+
+      
+
+        .contact-item {
+             display: flex;
+             align-items: center; 
+             margin-bottom: 10px; 
+        }
+
+        .svgimg1 {
+            margin-right: 8px; 
+            height: 25px; 
+            width: 25px;
+        }
+
+
+
+        .h2{
+            padding-left: 40px;
+            color: #4698AE;
+        }
+
+        .anchor{
+            text-decoration: none;
+        }
+
+        li{
+            list-style: none;
+        }
+
+
+        .anchor22{
+            color: #CBD5E1;
+            text-decoration: none;
+        }
+       
+        
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <h2 class="name">PORTFOLIO</h2>
+        <div class="nav">
+            <div class="navlink">
+             <UL class="navlink1">
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li> 
+              <li><a href="#technical skills">TECHNICAL SKILLS</a></li>
+             </UL>
+            </div>
+    
+            <button> <a class="anchor22" href="#contact">CONTACT</a> </button>
+        </div>
+    </div>
+
+   
+    <div class="container" id="home">
+
+        <!--MY IMAGE-->
+
+        <img class="imgmy" src="Naveen\nithi.png" alt="no image">
+
+        <!-- MY DETAILS-->
+
+        <p class="class22">Hey there! <br>I'm Nithiyanantham<br> Front End Developer<br>
+            
+            <!-- CONTACTS-->
+            <a class="anchor"  id="anchor" href="#contact">CONTACT</a>
+            
+            
+            <a href="https://www.instagram.com/jkn_nithi_0025?igsh=cmUwbDYwZDR1aGth"><svg  class="svgimg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"/></svg></a>
+            
+
+            <a href="https://wa.me/qr/CKTJHL6YFDHDE1"><svg class="svgimg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" width="50px" height="50px" fill-rule="evenodd"><path fill-rule="evenodd" d="M 24.503906 7.503906 C 22.246094 5.246094 19.246094 4 16.050781 4 C 9.464844 4 4.101563 9.359375 4.101563 15.945313 C 4.097656 18.050781 4.648438 20.105469 5.695313 21.917969 L 4 28.109375 L 10.335938 26.445313 C 12.078125 27.398438 14.046875 27.898438 16.046875 27.902344 L 16.050781 27.902344 C 22.636719 27.902344 27.996094 22.542969 28 15.953125 C 28 12.761719 26.757813 9.761719 24.503906 7.503906 Z M 16.050781 25.882813 L 16.046875 25.882813 C 14.265625 25.882813 12.515625 25.402344 10.992188 24.5 L 10.628906 24.285156 L 6.867188 25.269531 L 7.871094 21.605469 L 7.636719 21.230469 C 6.640625 19.648438 6.117188 17.820313 6.117188 15.945313 C 6.117188 10.472656 10.574219 6.019531 16.054688 6.019531 C 18.707031 6.019531 21.199219 7.054688 23.074219 8.929688 C 24.949219 10.808594 25.980469 13.300781 25.980469 15.953125 C 25.980469 21.429688 21.523438 25.882813 16.050781 25.882813 Z M 21.496094 18.445313 C 21.199219 18.296875 19.730469 17.574219 19.457031 17.476563 C 19.183594 17.375 18.984375 17.328125 18.785156 17.625 C 18.585938 17.925781 18.015625 18.597656 17.839844 18.796875 C 17.667969 18.992188 17.492188 19.019531 17.195313 18.871094 C 16.894531 18.722656 15.933594 18.40625 14.792969 17.386719 C 13.90625 16.597656 13.304688 15.617188 13.132813 15.320313 C 12.957031 15.019531 13.113281 14.859375 13.261719 14.710938 C 13.398438 14.578125 13.5625 14.363281 13.710938 14.1875 C 13.859375 14.015625 13.910156 13.890625 14.011719 13.691406 C 14.109375 13.492188 14.058594 13.316406 13.984375 13.167969 C 13.910156 13.019531 13.3125 11.546875 13.0625 10.949219 C 12.820313 10.367188 12.574219 10.449219 12.390625 10.4375 C 12.21875 10.429688 12.019531 10.429688 11.820313 10.429688 C 11.621094 10.429688 11.296875 10.503906 11.023438 10.804688 C 10.75 11.101563 9.980469 11.824219 9.980469 13.292969 C 9.980469 14.761719 11.050781 16.183594 11.199219 16.382813 C 11.347656 16.578125 13.304688 19.59375 16.300781 20.886719 C 17.011719 21.195313 17.566406 21.378906 18 21.515625 C 18.714844 21.742188 19.367188 21.710938 19.882813 21.636719 C 20.457031 21.550781 21.648438 20.914063 21.898438 20.214844 C 22.144531 19.519531 22.144531 18.921875 22.070313 18.796875 C 21.996094 18.671875 21.796875 18.597656 21.496094 18.445313 Z"/></svg></a>
+
+
+
+        </p>
+       
+        
+    </div>
+
+    
+    c<br><br><br><br><br>
+
+    <!-- ABOUT SECTION-->
+
+
+     <div class="container1" id="about">
+
+        <div class="h2">
+            <h2>ABOUT</h2>
+        </div>
+
+        <div class="containr2">
+            <img  class="imgabout" src="Naveen\rb_639.png" alt="no image">
+        </div>
+
+        <div class="container3">
+            <p class="class22">I'm Nithiyanantham <br><br> <span>I am currently pursuing a Bachelor of Engineering (B.E.) Degree at Annamalaiar College of Engineering, affiliated with Anna University </span> </p>
+        </div>
+
+
+     </div>
+    
+     <br><br><br><br><br><br>
+
+    <!-- SKILL SECTION -->
+
+
+    <div class="container4" id="technical skills">
+        <div class="container5">
+            <h3 class="container5">PROFFESIONAL SKILLS</h3>
+        </div>
+
+        <div class="container6">
+            <ul>
+               <li>
+                    <div class="container7">
+                        <img class="imgsec" src="Naveen\icons8-html-64.png" alt="no image">HTML5---->90%
+                    </div>
+                </li><br>
+               <li>
+                    <div class="container7">
+                        <img class="imgsec" src="Naveen\icons8-css3-64.png" alt="no image">CSS3----->90%
+                    </div>
+                </li><br>
+               <li>
+                    <div class="container7">
+                        <img class="imgsec" src="Naveen\icons8-javascript-64.png" alt="no image"> JS------->90%
+                    </div>
+                     
+                </li><br>
+               <li>
+                
+                    <div class="container7">
+                       <img   class="imgsec" src="Naveen\icons8-python-64.png" alt="no image"> PYTHON--->(BASICS)
+                    </div>
+                    
+                </li><br>
+               <li>
+                
+                    <div class="container7">
+                       <img  class="imgsec" src="Naveen\icons8-java-script-50.png" alt="no image"> JAVA----->(BASICS)
+                    </div>
+                   
+                </li>
+            </ul>
+        </div>
+
+        <div class="container8">
+
+            <img src="Naveen\programmer-concept-idea-coding-testing-writing-program-using-internet-different-software-website-development-optimization-isolated-vector-illustration.png" alt="no image">
+
+        </div>
+
+
+    </div>
+
+    <div class="container22">
+        <h3 class="container33">PROJECTS:</h3>
+        <P class="container44">"I am currently leading a project to develop a comprehensive portfolio highlighting our team members' skills and contributions."</P>
+    </div>
+
+
+    
+    <br><br><br><br><br>
+
+    <!-- CONTACT SECTION-->
+
+
+    <div class="container9" id="contact">
+        <div>
+            <h3 class="container10">CONTACT</h3>
+        </div>
+
+         <div class="container11">
+             <img src="Naveen\ezgif-2-49b0765a49.gif" alt="no image">
+        </div>
+        <div class="container12">                          
+            <ul class="container13">
+                <li class="contact-item">
+                    <svg class="svgimg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="50px" height="50px">
+                        <path fill-rule="evenodd" d="M 24.503906 7.503906 C 22.246094 5.246094 19.246094 4 16.050781 4 C 9.464844 4 4.101563 9.359375 4.101563 15.945313 C 4.097656 18.050781 4.648438 20.105469 5.695313 21.917969 L 4 28.109375 L 10.335938 26.445313 C 12.078125 27.398438 14.046875 27.898438 16.046875 27.902344 L 16.050781 27.902344 C 22.636719 27.902344 27.996094 22.542969 28 15.953125 C 28 12.761719 26.757813 9.761719 24.503906 7.503906 Z M 16.050781 25.882813 L 16.046875 25.882813 C 14.265625 25.882813 12.515625 25.402344 10.992188 24.5 L 10.628906 24.285156 L 6.867188 25.269531 L 7.871094 21.605469 L 7.636719 21.230469 C 6.640625 19.648438 6.117188 17.820313 6.117188 15.945313 C 6.117188 10.472656 10.574219 6.019531 16.054688 6.019531 C 18.707031 6.019531 21.199219 7.054688 23.074219 8.929688 C 24.949219 10.808594 25.980469 13.300781 25.980469 15.953125 C 25.980469 21.429688 21.523438 25.882813 16.050781 25.882813 Z M 21.496094 18.445313 C 21.199219 18.296875 19.730469 17.574219 19.457031 17.476563 C 19.183594 17.375 18.984375 17.328125 18.785156 17.625 C 18.585938 17.925781 18.015625 18.597656 17.839844 18.796875 C 17.667969 18.992188 17.492188 19.019531 17.195313 18.871094 C 16.894531 18.722656 15.933594 18.40625 14.792969 17.386719 C 13.90625 16.597656 13.304688 15.617188 13.132813 15.320313 C 12.957031 15.019531 13.113281 14.859375 13.261719 14.710938 C 13.398438 14.578125 13.5625 14.363281 13.710938 14.1875 C 13.859375 14.015625 13.910156 13.890625 14.011719 13.691406 C 14.109375 13.492188 14.058594 13.316406 13.984375 13.167969 C 13.910156 13.019531 13.3125 11.546875 13.0625 10.949219 C 12.820313 10.367188 12.574219 10.449219 12.390625 10.4375 C 12.21875 10.429688 12.019531 10.429688 11.820313 10.429688 C 11.621094 10.429688 11.296875 10.503906 11.023438 10.804688 C 10.75 11.101563 9.980469 11.824219 9.980469 13.292969 C 9.980469 14.761719 11.050781 16.183594 11.199219 16.382813 C 11.347656 16.578125 13.304688 19.59375 16.300781 20.886719 C 17.011719 21.195313 17.566406 21.378906 18 21.515625 C 18.714844 21.742188 19.367188 21.710938 19.882813 21.636719 C 20.457031 21.550781 21.648438 20.914063 21.898438 20.214844 C 22.144531 19.519531 22.144531 18.921875 22.070313 18.796875 C 21.996094 18.671875 21.796875 18.597656 21.496094 18.445313 Z"/>
+                    </svg>
+                    <a class="container14" href="https://wa.me/qr/CKTJHL6YFDHDE1">Whatsapp</a>
+                </li>
+                <li class="contact-item">
+                    <svg class="svgimg1" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"/></svg>
+                    <a class="container14" href="https://www.instagram.com/jkn_nithi_0025?igsh=cmUwbDYwZDR1aGth">Instagram</a>
+                </li>
+                <li class="contact-item">
+                    <svg  class="svgimg1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                        <path d="M 43.753906 6.4023438 C 42.53621 6.3489969 41.294792 6.712898 40.271484 7.46875 L 37.525391 9.4960938 L 25 18.755859 L 12.591797 9.5839844 A 1.0001 1.0001 0 0 0 11.949219 9.3007812 L 12.199219 9.3007812 L 9.734375 7.4765625 C 8.7104042 6.7188363 7.4671493 6.3528895 6.2480469 6.40625 C 5.0289444 6.4596105 3.8349462 6.9314667 2.9082031 7.8457031 C 1.7309454 9.0063798 1 10.629831 1 12.410156 L 1 15.84375 A 1.0001 1.0001 0 0 0 1 16.138672 L 1 39.5 C 1 41.421188 2.5788117 43 4.5 43 L 12 43 A 1.0001 1.0001 0 0 0 13 42 L 13 25.373047 L 24.40625 33.804688 A 1.0001 1.0001 0 0 0 25.59375 33.804688 L 37 25.373047 L 37 42 A 1.0001 1.0001 0 0 0 38 43 L 45.5 43 C 47.421188 43 49 41.421188 49 39.5 L 49 16.119141 A 1.0001 1.0001 0 0 0 49 15.859375 L 49 12.410156 C 49 10.6517 48.290455 9.0357821 47.128906 7.8730469 C 47.095336 7.8394769 47.084086 7.83018 47.097656 7.84375 A 1.0001 1.0001 0 0 0 47.091797 7.8378906 C 46.165242 6.9256756 44.971603 6.4556905 43.753906 6.4023438 z M 43.644531 8.4003906 C 44.400835 8.4300436 45.134049 8.7168876 45.689453 9.2636719 C 45.708363 9.2823439 45.722171 9.2964424 45.712891 9.2871094 C 46.50934 10.084374 47 11.188613 47 12.410156 L 47 15.496094 L 39 21.408203 L 39 11 A 1.0001 1.0001 0 0 0 38.996094 10.898438 L 41.458984 9.078125 A 1.0001 1.0001 0 0 0 41.460938 9.078125 C 42.109578 8.598977 42.888228 8.3707375 43.644531 8.4003906 z M 6.3574219 8.40625 C 7.1145694 8.37661 7.8958927 8.6037105 8.5449219 9.0839844 L 11.003906 10.902344 A 1.0001 1.0001 0 0 0 11 11 L 11 21.408203 L 3 15.496094 L 3 12.410156 C 3 11.174482 3.5017577 10.068855 4.3125 9.2695312 C 4.8677569 8.7217677 5.6002743 8.4358895 6.3574219 8.40625 z M 37 12.371094 L 37 22.886719 L 25 31.755859 L 13 22.886719 L 13 12.373047 L 24.40625 20.804688 A 1.0001 1.0001 0 0 0 25.59375 20.804688 L 37 12.371094 z M 3 17.982422 L 11 23.896484 L 11 41 L 4.5 41 C 3.6591883 41 3 40.340812 3 39.5 L 3 17.982422 z M 47 17.982422 L 47 39.5 C 47 40.340812 46.340812 41 45.5 41 L 39 41 L 39 23.896484 L 47 17.982422 z"></path>
+                        </svg>
+                    <a class="container14" href="http://mail.google.com/mail/?view=cm&fs=1&to=madhavanjkn@gmail.com&su=subject&body=hello buddy">E-Mail</a>
+                </li>
+                <li class="contact-item">
+                    <svg  class="svgimg1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                        <path d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 14 11.011719 C 12.904779 11.011719 11.919219 11.339079 11.189453 11.953125 C 10.459687 12.567171 10.011719 13.484511 10.011719 14.466797 C 10.011719 16.333977 11.631285 17.789609 13.691406 17.933594 A 0.98809878 0.98809878 0 0 0 13.695312 17.935547 A 0.98809878 0.98809878 0 0 0 14 17.988281 C 16.27301 17.988281 17.988281 16.396083 17.988281 14.466797 A 0.98809878 0.98809878 0 0 0 17.986328 14.414062 C 17.884577 12.513831 16.190443 11.011719 14 11.011719 z M 14 12.988281 C 15.392231 12.988281 15.94197 13.610038 16.001953 14.492188 C 15.989803 15.348434 15.460091 16.011719 14 16.011719 C 12.614594 16.011719 11.988281 15.302225 11.988281 14.466797 C 11.988281 14.049083 12.140703 13.734298 12.460938 13.464844 C 12.78117 13.19539 13.295221 12.988281 14 12.988281 z M 11 19 A 1.0001 1.0001 0 0 0 10 20 L 10 39 A 1.0001 1.0001 0 0 0 11 40 L 17 40 A 1.0001 1.0001 0 0 0 18 39 L 18 33.134766 L 18 20 A 1.0001 1.0001 0 0 0 17 19 L 11 19 z M 20 19 A 1.0001 1.0001 0 0 0 19 20 L 19 39 A 1.0001 1.0001 0 0 0 20 40 L 26 40 A 1.0001 1.0001 0 0 0 27 39 L 27 29 C 27 28.170333 27.226394 27.345035 27.625 26.804688 C 28.023606 26.264339 28.526466 25.940057 29.482422 25.957031 C 30.468166 25.973981 30.989999 26.311669 31.384766 26.841797 C 31.779532 27.371924 32 28.166667 32 29 L 32 39 A 1.0001 1.0001 0 0 0 33 40 L 39 40 A 1.0001 1.0001 0 0 0 40 39 L 40 28.261719 C 40 25.300181 39.122788 22.95433 37.619141 21.367188 C 36.115493 19.780044 34.024172 19 31.8125 19 C 29.710483 19 28.110853 19.704889 27 20.423828 L 27 20 A 1.0001 1.0001 0 0 0 26 19 L 20 19 z M 12 21 L 16 21 L 16 33.134766 L 16 38 L 12 38 L 12 21 z M 21 21 L 25 21 L 25 22.560547 A 1.0001 1.0001 0 0 0 26.798828 23.162109 C 26.798828 23.162109 28.369194 21 31.8125 21 C 33.565828 21 35.069366 21.582581 36.167969 22.742188 C 37.266572 23.901794 38 25.688257 38 28.261719 L 38 38 L 34 38 L 34 29 C 34 27.833333 33.720468 26.627107 32.990234 25.646484 C 32.260001 24.665862 31.031834 23.983076 29.517578 23.957031 C 27.995534 23.930001 26.747519 24.626988 26.015625 25.619141 C 25.283731 26.611293 25 27.829667 25 29 L 25 38 L 21 38 L 21 21 z"></path>
+                        </svg>
+                    <a class="container14" href="https://www.linkedin.com/school/annauniversity-chennai/?originalSubdomain=in">LinkedIn</a>
+                </li>
+                <li class="contact-item">
+                    <svg    class="svgimg1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 24 24">
+                        <path d="M 18.492188 2.9941406 A 0.50005 0.50005 0 0 0 18.113281 3.1816406 L 13.060547 9.3164062 L 9.0566406 3.7714844 C 8.7066406 3.2874844 8.1458281 3 7.5488281 3 L 4.078125 3 C 3.420125 3 3.0388281 3.7462969 3.4238281 4.2792969 L 9.8652344 13.199219 L 4.1132812 20.181641 A 0.50090307 0.50090307 0 1 0 4.8867188 20.818359 L 10.470703 14.037109 L 14.943359 20.228516 C 15.293359 20.712516 15.854172 21 16.451172 21 L 19.921875 21 C 20.579875 21 20.961172 20.253703 20.576172 19.720703 L 13.667969 10.15625 L 18.886719 3.8183594 A 0.50005 0.50005 0 0 0 18.492188 2.9941406 z M 4.4550781 4 L 7.5507812 4 C 7.8257813 4 8.0850937 4.1324687 8.2460938 4.3554688 L 19.544922 20 L 16.451172 20 C 16.176172 20 15.916859 19.867531 15.755859 19.644531 L 4.4550781 4 z"></path>
+                        </svg>
+                    <a class="container14" href="https://x.com/auvcochennai">Twitter</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <hr>
+        <div class="container15">
+            <h5 class="container16">© 2024-Nithiyanantham PORTFOLIO. All rights reserved.</h5>
+        </div>
+</body>
+</html>
